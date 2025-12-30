@@ -39,9 +39,9 @@ export default function PerfDemo() {
 
   return (
     <div className="wrap">
-      <h1 className="h1">Performance Demo</h1>
+      <h1 className="h1">My Digital Banking</h1>
       <p className="muted">
-        5000 items generated, but only {PAGE_SIZE} rendered per page. Uses memoization to reduce unnecessary renders.
+        5000 items generated, but only {PAGE_SIZE} rendered per page. 
       </p>
 
       <div className="bar">
