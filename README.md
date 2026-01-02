@@ -1,17 +1,47 @@
-# React + Vite
+# ⚡ Frontend Performance Optimization Demo (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based demonstration project focused on **frontend performance optimization techniques** for data-heavy user interfaces.  
+The project simulates large-scale data rendering scenarios and applies best practices to maintain responsiveness and scalability.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Purpose of the Project
 
-## React Compiler
+This project was built to demonstrate how frontend performance can degrade when rendering large datasets, and how to address these challenges using practical React optimization techniques commonly applied in real-world applications such as dashboards and admin panels.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# frontend-performance-optimization
+- Simulated rendering of thousands of data records
+- Pagination to limit DOM load and improve rendering performance
+- Memoized components to prevent unnecessary re-renders
+- Optimized state updates using React hooks
+- Responsive layout suitable for desktop and mobile screens
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **JavaScript (ES6+)**
+- **Vite**
+- **CSS (Responsive Design)**
+
+---
+
+## 🚀 Performance Optimization Techniques Used
+
+- **Pagination**
+  - Renders only a subset of records per page to reduce DOM size and improve performance
+- **React.memo**
+  - Prevents re-rendering of components when props have not changed
+- **useMemo**
+  - Memoizes expensive computations such as filtered datasets
+- **useCallback**
+  - Stabilizes function references passed to child components
+
+---
+
+## 📁 Project Structure
+
