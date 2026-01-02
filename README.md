@@ -40,8 +40,3 @@ This project was built to demonstrate how frontend performance can degrade when 
   - Memoizes expensive computations such as filtered datasets
 - **useCallback**
   - Stabilizes function references passed to child components
-
----
-
-## 📁 Project Structure
-
